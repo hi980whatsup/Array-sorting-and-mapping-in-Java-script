@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <button id="result" onclick="ascending()">Acsending</button> 
+
+
+        <script>
+            var findvalues=[28,25,18,54,90]
+
+            function ascending()
+            {
+                findvalues.sort(function(a,b){return a-b})
+                document.getElementById("result").innerHTML=findvalues
+
+            }
+
+
+            </script>
+
+    
+
+    </body>
+    </html>
