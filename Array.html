@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p id="result1"></p>
+
+        <script>
+            var findvalues=[16,28,47,98,56,37]
+            function mapping(findvalues)
+            {
+                return findvalues*10
+            }
+            var result=findvalues.map(mapping)
+            
+            document.getElementById("result1").innerHTML=result
+
+        </script>
+    </body>
+</html>
